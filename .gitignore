@@ -1,8 +1,63 @@
-### Own ###
+# IDE and Editor
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Build tools
 .trunk/
 **/target/
-**/.vscode
-**/tmp
+**/node_modules/
+**/dist/
+**/build/
+**/.gradle/
+**/gradle-app.setting
+
+# Development
+**/tmp/
 **/*.tmp
+**/.tmp/
 *.ln
 *.log
+*.pid
+*.seed
+*.pid.lock
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+**/package-lock.json
+**/yarn.lock
+**/.npm/
+**/pnpm-lock.yaml
+
+# Angular
+**/angular/RestClient/dist/
+**/angular/RestClient/.angular/
+**/angular/**/.cache/
+
+# Maven
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/pom.xml.next
+**/release.properties
+**/dependency-reduced-pom.xml
+**/.m2repository/
+**/.maven/
+
+# Temporary files
+Thumbs.db
+*.bak
+*.swp
