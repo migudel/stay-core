@@ -137,7 +137,7 @@ services:
   Generate-APIs-Data:
     image: gen-apis-data
     build:
-      context: ./poblate
+      context: populate
       dockerfile: Dockerfile
     networks:
       - kong-net
@@ -157,7 +157,7 @@ services:
     image: auth-api-image
     hostname: ${API_AUTH_HOSTNAME}
     build:
-      context: ./java/services/auth
+      context: services/auth
       dockerfile: Dockerfile
     restart: unless-stopped
     networks:
@@ -175,7 +175,7 @@ services:
     image: users-api-image
     hostname: ${API_USERS_HOSTNAME}
     build:
-      context: ./java/services/users
+      context: services/users
       dockerfile: Dockerfile
     restart: unless-stopped
     networks:
@@ -192,7 +192,7 @@ services:
     image: hotels-api-image
     hostname: ${API_HOTELS_HOSTNAME}
     build:
-      context: ./java/services/hotels
+      context: services/hotels
       dockerfile: Dockerfile
     restart: unless-stopped
     networks:
@@ -209,7 +209,7 @@ services:
     image: bookings-api-image
     hostname: ${API_BOOKINGS_HOSTNAME}
     build:
-      context: ./java/services/bookings
+      context: services/bookings
       dockerfile: Dockerfile
     restart: unless-stopped
     networks:

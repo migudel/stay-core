@@ -33,7 +33,7 @@
 *.pid.lock
 
 # Environment
-.env
+config/.env
 .env.local
 .env.*.local
 

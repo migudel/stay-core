@@ -1,7 +1,3 @@
-# DEMO
-
-![Video demostración](DBCS_FINAL.mp4)
-
 # Sobre el proyecto
 
 En este proyecto nos hemos centrado en la creación de microservicios lo más independientes posibles, para ello se ha trabajado con microservicios spring-boot dividiendo el proyecto en:
@@ -60,15 +56,15 @@ docker compose up
 
 ### Diagrama de componente Angular
 
-![Diagrama de componentes angular](./diagramas/Angular.svg)
+![Diagrama de componentes angular](diagrams/original/Angular.svg)
 
 ### Diagrama de despliegue del sistema
 
-![Diagrama de despligue del sistema](./diagramas/despliegue.svg)
+![Diagrama de despligue del sistema](diagrams/original/despliegue.svg)
 
 ### Diagrama de la arquitectura lógica del microservicio de usuarios
 
-![Diagrama de la arquitectura lógica de usuarios](./diagramas/User.svg)
+![Diagrama de la arquitectura lógica de usuarios](diagrams/original/User.svg)
 
 ## Consideraciones de diseño
 
