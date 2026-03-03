@@ -5,18 +5,20 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.3.4</version>
+		<version>4.0.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.uva</groupId>
-	<artifactId>authentication</artifactId>
+	<groupId>com.migudel.staycore</groupId>
+	<artifactId>staycore-authorization</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>authentication</name>
-	<description>Authentication rest microservice</description>
-	<url/>
+	<name>StayCore Authorization Service</name>
+	<description>Authorization and authentication microservice for the StayCore application</description>
+	<packaging>jar</packaging>
+
 	<licenses>
 		<license/>
 	</licenses>
+
 	<developers>
 		<developer/>
 	</developers>
@@ -27,7 +29,7 @@
 		<url/>
 	</scm>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>25</java.version>
 	</properties>
 	<dependencies>
 		<dependency>

@@ -5,13 +5,13 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.3.4</version>
+		<version>4.0.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.uva</groupId>
-	<artifactId>hotels</artifactId>
+	<groupId>com.migudel.staycore</groupId>
+	<artifactId>staycore-hotels</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>hotels</name>
+	<name>StayCore Hotels Service</name>
 	<description>Hotels rest microservice</description>
 	<url/>
 	<licenses>
@@ -27,7 +27,7 @@
 		<url/>
 	</scm>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>25</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
