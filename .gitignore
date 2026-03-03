@@ -14,6 +14,7 @@
 
 # Build tools
 .trunk/
+.zencoder/
 **/target/
 **/node_modules/
 **/dist/
